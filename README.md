@@ -8,14 +8,14 @@ Steps:
  
 
 **Filename** - **Function**:
-> - *ela.cpp*- Implements the Error Level Analysis algorithm to produce the error in form of an image
+> - *ela.cpp*- Implements the Error Level Analysis algorithm to produce the error in form of an image, to detect image manipulation.
 
-> - *original.jpg* - Original(not edited) image taken by mobile camera
+> - *original.jpg* - Original(not edited) image taken by mobile camera.
 
 > - *photoshopped_img.jpg* - Photoshopped version of original image with a logo added to it saved at 100% quality in photoshop.
 
 > - *diff.jpg* - Resultant image obtained after subtracting the original image from compressed image, we need to scale the difference values obtained as they are very close to zero, so not visible properly.
 
-> - *result_original_img.jpg* - Resultant image after aplying ELA algorithm on original image and scaling the diffrence values by a multiplier, so that they can be clearly visible as the diffeerence values are very smaller.
+> - *result_original_img.jpg* - Resultant image after applying ELA algorithm on original image and scaling the difference values by a multiplier, so that they can be clearly visible as the difference values were very smaller.
 
-> - *result_edited_img.jpg* - Resultant image after aplying ELA algorithm on photoshopped image and scaling the diffrence values by a multiplier, so that they can be clearly visible as the diffeerence values are very smaller.
+> - *result_edited_img.jpg* - Resultant image after applying ELA algorithm on photoshopped image and scaling the difference values by a multiplier, so that they can be clearly visible as the difference values were very smaller.
